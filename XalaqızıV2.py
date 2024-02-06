@@ -55,13 +55,5 @@ if a == "1":
     os.system("apt upgrade -y")
     os.system("pkg update -y && pkg upgrade -y")
 else:
-    print("\nHansı hack alətini yükləmək istəyirsiniz?\n \n 1. Zphisher\n 2. CamHacker\n 3. VideoHacker\n 4. Sqlmap\n 5. İPTracer")
-       # b = input("secim?")
-       # if b == "1":
-         #   os.chdir("/data/data/com.termux/files/home")
-        #    os.system("git clone https://github.com/htr-tech/zphisher.git")
-     #   elif b == "2":
-           #  os.chdir("/data/data/com.termux/files/home")
-           #  os.system("git clone https://github.com/KasRoudra/CamHacker")
-    #    else:
-        #    exit()     
+    print(" Bu Özəllik hal-hazırda mövcud deyil. Gələcək güncəllənmələri gözləyin.")
+    os.system("python XalaqiziV2.py")
