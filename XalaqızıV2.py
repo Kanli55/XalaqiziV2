@@ -56,4 +56,5 @@ if a == "1":
     os.system("pkg update -y && pkg upgrade -y")
 else:
     print(" Bu Özəllik hal-hazırda mövcud deyil. Gələcək güncəllənmələri gözləyin.")
+    os.chdir("/data/data/com.termux/files/home/XalaqiziV2")
     os.system("python XalaqiziV2.py")
